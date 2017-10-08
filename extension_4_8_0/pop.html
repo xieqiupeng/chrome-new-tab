@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title id="title">
+</title>
+<style>
+html {
+	font-family:'Segoe UI',Arial, 'Microsoft Yahei', Simsun, sans-serif;
+	font-size:13px;
+	height:100%;
+	overflow:hidden;
+}
+body {
+	margin: 0;
+}
+a{
+	color:#000;
+	text-decoration:none;
+	text-shadow: 1px 1px 3px #fff;
+	font:
+}
+.menu .menuItem:last-child{
+	border-bottom: 0;
+}
+.menu .menuItem{
+	cursor: pointer;
+	width: 160px;
+	padding: 0 10px;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: #CCC 1px dashed;
+}
+.menu .menuItem:hover{
+	background: #E4E4E4;
+}
+span{
+	text-align:center;
+	display:block;
+}
+</style>
+</head>
+<body>
+	<div class='menu'>	
+		<div class='menuItem'>
+			<a href='index.html#launch' target='_blank'>
+				<span id='chrome_extension_name'></span>
+			</a>
+		</div>
+		<div class='menuItem'>
+			<a href='index.html#setting' target='_blank' >
+            	<span id='settingPanel'></span>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/pop.js"></script>
